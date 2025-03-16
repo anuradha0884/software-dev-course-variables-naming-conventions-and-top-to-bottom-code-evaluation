@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let personName = "Alice";
+let itemName = "Apple";
+let itemCount = 5;
+let amountForeachItem = 4;
+let totalAmount = itemCount * amountForeachItem;
+let d = personName + " bought " + itemCount + " "+itemName+ "s for $" + totalAmount + ". " +personName+ " paid $"+amountForeachItem+" for each item.";
 
 console.log(d);
